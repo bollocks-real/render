@@ -1,0 +1,19 @@
+{
+  "name": "ascii-art-game",
+  "version": "1.0.0",
+  "description": "Simple test game rendered with ASCII art library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node game.js",
+    "dev": "nodemon game.js"
+  },
+  "keywords": ["ascii-art", "game", "terminal"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-art": "^2.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
